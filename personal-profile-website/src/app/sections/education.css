@@ -1,0 +1,19 @@
+.education .education-title {
+    font-size: 26px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #45505b;
+}
+
+.education {
+    min-height: 100vh;
+    background-color: #fafafa;
+  }
+
+.education-image {
+    width: 60%; /* Ensure the image takes up the full width of the column */
+    height: auto; /* Maintain the aspect ratio */
+    object-fit: cover; /* Optional: Adjust the image display */
+    max-height: 75%; /* Prevent overflow */
+}
