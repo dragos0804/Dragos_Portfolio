@@ -63,7 +63,6 @@ export const education = [
         date: "October 2024-Current",
         institution: "Transilvania University of Brașov, Faculty of Mathematics and Informatics",
         keywords: "web application development and testing; database and application server administration; software design; cloud computing",
-        thesis: "",
     },
     {
         id: 2,
@@ -79,7 +78,6 @@ export const education = [
         date: "September 2017-July 2021",
         institution: "National College of Computer Science “Grigore Moisil”, Brașov",
         keywords: "Baccalaureate in Romanian language, mathematics and computer science",
-        thesis: "",
     },
 ];
 

@@ -6,22 +6,30 @@ export default function EducationItem({item}: {
     item : {
         name: string;
         date: string;
-        place: string;
+        institution: string;
         keywords: string;
-        items: [string];
+        thesis?: string;
     }
 }) {
   return (
     <div className="education-item">
         <h4>{item.name}</h4>
         <h5>{item.date}</h5>
-        <p>{item.place}</p>
+        <p>{item.institution}</p>
         <ul>
             <li><b>Keywords:</b> <i>{item.keywords}</i></li>
             {
-                item.items.map((line, index)=><li key={index}>{line}</li>)
+                item.thesis &&
+                (
+                    <div className="mt-4 pt-4 border-t">
+                      <p className="text-sm">
+                        <span className="font-medium">Thesis: </span>
+                        {item.thesis} 
+                      </p>
+                    </div>)
             }
         </ul>
+
     </div>
   );
 }
