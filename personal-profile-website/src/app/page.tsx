@@ -1,5 +1,6 @@
 import About from "./sections/About";
 import Hero from "./sections/Hero";
+import Resume from "./sections/Resume";
 
 
 export default function Home() {
@@ -8,6 +9,7 @@ export default function Home() {
       <Hero />
       <main id = "id">
         <About/>
+        <Resume/>
       </main>
     </>
   );
