@@ -11,6 +11,7 @@ import 'glightbox/dist/css/glightbox.css'
 import type { Metadata } from "next";
 import { Raleway } from "next/font/google";
 import "./globals.css";
+import Header from './components/Header';
 
 const raleway = Raleway({
   subsets: ["latin"],
@@ -30,6 +31,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${raleway.className}`}>
+        <Header />
         {children}
       </body>
     </html>

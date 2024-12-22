@@ -1,3 +1,14 @@
+import About from "./sections/About";
+import Hero from "./sections/Hero";
+
+
 export default function Home() {
-  return <h1>Personal Profile App</h1>
+  return (
+    <>
+      <Hero />
+      <main id = "id">
+        <About/>
+      </main>
+    </>
+  );
 }

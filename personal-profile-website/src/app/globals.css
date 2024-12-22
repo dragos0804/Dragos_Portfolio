@@ -3,11 +3,12 @@
 ------------------------------------------------------------------------------------*/
 body {
   font-family: 'Open Sans', sans-serif;
-  color: #272829
+  color: #f1f1f1;
+  background-color: #0a0a0a;
 }
 
 a {
-  color: #6305bb;
+  color: #501768;
   text-decoration: none;
   cursor: pointer;
 }
