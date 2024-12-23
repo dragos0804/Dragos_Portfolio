@@ -2,7 +2,7 @@
     position: relative;
     padding: 0 0 20px 20px;
     margin-top: -2px;
-    border-left: 2px solid rgb(185, 19, 185);
+    border-left: 2px solid #7e0e7e;
 }
 
 .resume .resume-item h4 {
@@ -11,7 +11,7 @@
     font-weight: 600;
     text-transform: uppercase;
     font-family: 'Poppins', sans-serif;
-    color: rgb(185, 19, 185);
+    color: #7e0e7e;
     margin-bottom: 10px;
 }
 
@@ -45,5 +45,5 @@
     left: -9px;
     top: 0;
     background: #fff;
-    border: 2px solid rgb(185, 19, 185);
+    border: 2px solid #7e0e7e;
 }
