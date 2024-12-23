@@ -1,8 +1,43 @@
+.education-card {
+    transition: all 0.3s ease;
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+  }
+  
+  .education-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .education-card .card-body {
+    padding: 1.5rem;
+  }
+  
+  .education-card .card-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+  }
+  
+  .education-card .card-subtitle {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .education-card .card-text {
+    font-size: 0.9rem;
+  }
+  
+  .education-card .border-top {
+    border-color: rgba(0, 0, 0, 0.1) !important;
+  }
+  
+
 .education .education-item{
     position: relative;
     padding: 0 0 20px 20px;
     margin-top: -2px;
-    border-left: 2px solid rgb(185, 19, 185);
 }
 
 .education .education-item h4 {
@@ -45,5 +80,4 @@
     left: -9px;
     top: 0;
     background: #fff;
-    border: 2px solid rgb(185, 19, 185);
 }
