@@ -1,4 +1,7 @@
-.education-card {
+.education {
+    min-height: 60vh;
+  }
+  .education-card {
     transition: all 0.3s ease;
     border: none;
     border-radius: 15px;
@@ -18,19 +21,26 @@
     font-size: 1.25rem;
     font-weight: 600;
     margin-bottom: 0.5rem;
+    color: #7e0e7e;
   }
   
   .education-card .card-subtitle {
     font-size: 1rem;
     margin-bottom: 1rem;
+    color: #6c757d;
   }
   
   .education-card .card-text {
     font-size: 0.9rem;
+    color: #6c757d;
   }
   
   .education-card .border-top {
     border-color: rgba(0, 0, 0, 0.1) !important;
+  }
+  
+  .education-card strong {
+    color: #4a4a4a;
   }
   
 

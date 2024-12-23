@@ -1,6 +1,48 @@
 .about {
-    min-height: 100vh;
+    min-height: 60vh;
   }
+.about-card {
+    transition: all 0.3s ease;
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+  }
+  
+.about-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+  
+  .about-card .card-body {
+    padding: 1.5rem;
+}
+  
+.about-card .card-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: #7e0e7e;
+}
+  
+.about-card .card-text {
+    font-size: 0.9rem;
+    color: #6c757d;
+    margin-bottom: 1rem;
+}
+  
+.about-card ul li {
+    font-size: 0.9rem;
+    color: #6c757d;
+}
+  
+.about-card ul li strong {
+    color: #4a4a4a;
+}
+  
+.about-card .bx {
+    color: #7e0e7e;
+    font-size: 1.1rem;
+}
 .about .content h3 {
     font-weight: 700;
     font-size: 26px;

@@ -12,27 +12,29 @@ export default function EducationItem({item}: {
     }
 }) {
   return (
-    <div className="card h-100 shadow-sm education-card">
+    <div className="card h-100 shadow-lg education-card">
       <div className="card-body d-flex flex-column">
-        <div className="education-item">
-          <h4>{item.name}</h4>
-          <h5>{item.date}</h5>
-          <p>{item.institution}</p>
-          <ul>
-              <li><b>Related:</b> <i>{item.keywords}</i></li>
-              {
-                  item.thesis &&
-                  (
-                      <div className="mt-4 pt-4 border-t">
-                        <p className="text-sm">
-                          <span className="font-medium"><b>Thesis:</b></span>
-                          {item.thesis} 
-                        </p>
-                      </div>) 
-              }
-          </ul>
-          </div>
+        <h4 className="card-title">{item.name}</h4>
+        <h5 className="card-subtitle mb-2 text-muted">{item.date}</h5>
+        <p className="card-text">{item.institution}</p>
+        <div className="mt-auto">
+          <p className="card-text">
+            <small>
+              <strong>Keywords:</strong> <i>{item.keywords}</i>
+            </small>
+          </p>
+          {item.thesis && (
+            <div className="mt-3 pt-3 border-top">
+              <p className="card-text">
+                <small>
+                  <span className="font-weight-bold">Thesis: </span>
+                  {item.thesis}
+                </small>
+              </p>
+            </div>
+          )}
         </div>
+      </div>
     </div>
   );
 }
