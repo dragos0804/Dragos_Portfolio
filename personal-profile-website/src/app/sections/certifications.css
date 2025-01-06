@@ -1,0 +1,40 @@
+.certifications {
+  min-height: 60vh;
+  padding: 60px 0;
+  background-color: #f8f9fa;
+}
+
+.certification-card {
+  transition: all 0.3s ease;
+  border: none;
+  border-radius: 15px;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+.certification-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.certification-card .card-body {
+  padding: 1.5rem;
+}
+
+.certification-card .card-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: #7e0e7e;
+}
+
+.certification-card .card-text {
+  font-size: 0.9rem;
+  color: #6c757d;
+  padding-left: 20px;
+}
+
+.certification-card .card-text li {
+  margin-bottom: 0.5rem;
+}
+

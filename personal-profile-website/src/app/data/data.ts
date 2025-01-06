@@ -49,9 +49,16 @@ export const navs = [
     },
     {
         id: 8,
-        name: "Portfolio",
-        target: "portfolio",
+        name: "Projects",
+        target: "projects",
         icon: "bx bx-paperclip",
+        active: false,
+    },
+    {
+        id: 9,
+        name: "Contact",
+        target: "contact",
+        icon: "bx bx-envelope",
         active: false,
     },
 ];
@@ -185,7 +192,7 @@ export const resume = [
     },
 ];
 
-export const certifications = [
+export const certification = [
     {
         id: 1,
         title: "Programming",
@@ -252,3 +259,90 @@ export const awards = [
         ],
     }
 ];
+
+export const skills = [
+    {
+      category: "Software Skills",
+      subcategories: [
+        {
+          name: "Programming Languages",
+          details: [
+            "Comfortable with C, C++, C#, Java, and Python"
+          ]
+        },
+        {
+          name: "AI-related",
+          details: [
+            "Knowledge of MLPs, CNNs, RNNs, K-Means, and reinforcement learning",
+            "Basic understanding of Transformers, attention-based models, and genetic algorithms"
+          ]
+        },
+        {
+          name: "Web-related",
+          details: [
+            "Contact with Java SpringBoot, Thymeleaf, and Vue.js"
+          ]
+        },
+        {
+          name: "QA-related",
+          details: [
+            "Creating test cases, unit testing, regression testing, and automated testing",
+            "Google mocks",
+            "Selenium"
+          ]
+        }
+      ]
+    },
+    {
+      category: "Other Skills",
+      details: [
+        "Teaching",
+        "Psychology",
+        "Pedagogy",
+        "Understanding of AGILE principles"
+      ]
+    }
+  ];
+
+  export const projects = [
+    {
+      title: "A Comparison of Lossless Data Compression Methods Using RNNs and Transformers",
+      technologies: [
+        "Python", "PyTorch", "NumPy", "Keras", "TensorFlow", "Matplotlib", 
+        "Streamlit", "Pandas", "batch scripting"
+      ],
+      description: [
+        "This is an individual project that stands at the basis of my bachelor’s thesis, leveraging machine-learning techniques to compress data with no loss.",
+        "This is done by overfitting the networks with the data that is to be compressed and encoding the resulting weights using an Arithmetic Encoder into a short sequence of bits that, alongside the trained model, represents the compression itself."
+      ]
+    },
+    {
+      title: "AI Learns to Play Super Mario Bros - Reinforcement Learning",
+      technologies: ["Python", "Gym", "Matplotlib", "Stable Baseline 3"],
+      description: [
+        "This is an individual project as part of a collaboration aiming to create a comparison between different protocols used in reinforcement learning, where my focus landed on the performance of the Proximal Policy Optimization."
+      ]
+    },
+    {
+      title: "Movie Recommendation System",
+      technologies: ["C++", "SQLite", "Google Mocks"],
+      description: [
+        "Using the renowned K-Means Clustering algorithm on a publicly available database of movies, my teammates and I crafted a recommendation system that considers multiple criteria."
+      ]
+    },
+    {
+      title: "Collision Detection Using Quadtrees",
+      technologies: ["C++", "olcPixelGameEngine.h"],
+      description: [
+        "This solo project showcases a hand-made collision detection system, where circles traverse the screen that is partitioned in subspaces using quadtrees.",
+        "This project has been used as part of my academic journey, where I gave an engaging visual element to the exploration of this data structure."
+      ]
+    },
+    {
+      title: "School Management System",
+      technologies: ["C#", "SQL Server", "Entity Framework", "XAML"],
+      description: [
+        "This collaborative project revolves around the seamless management of a school environment and leverages the well-known MVVM architecture and good practices of database design."
+      ]
+    }
+  ];

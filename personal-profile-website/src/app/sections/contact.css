@@ -1,0 +1,36 @@
+.contact {
+    padding: 60px 0;
+    background-color: #f8f9fa;
+}
+
+.contact-form {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form label {
+    font-weight: 600;
+    color: #7e0e7e;
+}
+
+.contact-form .form-control {
+    border-color: #b913b9;
+}
+
+.contact-form .form-control:focus {
+    border-color: #7e0e7e;
+    box-shadow: 0 0 0 0.2rem rgba(126, 14, 126, 0.25);
+}
+
+.contact-form .btn-primary {
+    background-color: #b913b9;
+    border-color: #b913b9;
+}
+
+.contact-form .btn-primary:hover {
+    background-color: #7e0e7e;
+    border-color: #7e0e7e;
+}
+

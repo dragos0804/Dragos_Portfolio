@@ -1,6 +1,5 @@
 import React from 'react';
 import './educationItem.css';
-import { isSymbolObject } from 'util/types';
 
 export default function EducationItem({item}: {
     item : {

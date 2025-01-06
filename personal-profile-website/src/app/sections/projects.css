@@ -1,0 +1,44 @@
+.projects {
+    min-height: 60vh;
+    padding: 60px 0;
+}
+
+.project-card {
+    transition: all 0.3s ease;
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.project-card .card-body {
+    padding: 1.5rem;
+}
+
+.project-card .card-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: #7e0e7e;
+}
+
+.project-card .card-text {
+    font-size: 0.9rem;
+    color: #6c757d;
+    margin-bottom: 0.5rem;
+}
+
+.project-card .technologies {
+    margin-bottom: 1rem;
+}
+
+.project-card .badge {
+    background-color: #b913b9;
+    font-weight: 500;
+}
+

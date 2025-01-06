@@ -8,8 +8,8 @@ export default function Hero() {
   return (
     <section id='hero' className='d-flex flex-column justify-content-center'>
         <div className="container">
-            <h1>Dragoș-Paul Ciofalău</h1>
-            <p>
+            <h1 className="hero-title">Dragoș-Paul Ciofalău</h1>
+            <p className="hero-subtitle">
                 I'm a{' '}
                 <ReactTyped
                     strings={['developer', 'teacher', 'student', 'volunteer']}
@@ -34,3 +34,4 @@ export default function Hero() {
     </section>
   );
 }
+
