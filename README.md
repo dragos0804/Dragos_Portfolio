@@ -1,4 +1,4 @@
-# Dragos_Portfolio-
+# Dragos_Portfolio
 
 In this project, we are delving into the world of **Next.js** to create a **dynamic** and professional Portfolio Website, complete with **TypeScript** integration and dynamic **API** usage.
 
