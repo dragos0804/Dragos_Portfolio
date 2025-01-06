@@ -49,7 +49,7 @@ Now, you can verify the installation running the following commands in a command
 
 ### Running the application:
 
-1. Open `Dragos_Portfolio-` in an editor like Visual Studio Code.
+1. Open `Dragos_Portfolio` in an editor like Visual Studio Code.
 2. Use the termiinal to travel to `personal-profile-website` via the following command:
    ```
    > cd .\personal-profile-website\
